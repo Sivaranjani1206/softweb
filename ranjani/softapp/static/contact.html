@@ -1,0 +1,152 @@
+contact.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Plum And Pearl</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #faf7f4;
+            color: #130101;
+        }
+
+        header {
+            background-color: #55055f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+
+        nav a:hover, .active {
+            text-decoration: underline;
+        }
+
+        .contact-section {
+            background: url('backg.jfif');
+            padding: 50px;
+            text-align: center;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: left;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #44033f;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #48044b;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: #49053e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 50px;
+        }
+
+        iframe {
+            margin-top: 25px;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 600px;
+            height: 300px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flavours & Feast</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Whether you have a question, feedback, or just wanna say hi, drop us a message below 🍴💬</p>
+        <div class="contact-container">
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Your Name" required>
+
+                <label>Email:</label>
+                <input type="email" placeholder="Your Email" required>
+
+                <label>Message:</label>
+                <textarea placeholder="Type your message here..." required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Reach Us At</h3>
+                <p><strong>📍 Address:</strong> No. 66, Taj nagar, Chennai, Tamil Nadu</p>
+                <p><strong>📞 Phone:</strong> +91 98647 86543</p>
+                <p><strong>✉️ Email:</strong> contact@plumandpearl.com</p>
+                <p><strong>🕒 Open Hours:</strong> Mon - Sun | 09 AM - 10 PM</p>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <footer>
+        <p>© 2026 Plum And Pearl. All rights reserved.</p>
+    </footer>
+</body>
+</html>
