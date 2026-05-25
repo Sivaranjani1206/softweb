@@ -622,15 +622,15 @@ contact.html
     </footer>
 </body>
 </html>
-
+```
 
 ## OUTPUT:
-![alt text](<Screenshot (210).png>)
-![alt text](<Screenshot (211).png>)
-![alt text](<Screenshot (212).png>)
-![alt text](<Screenshot (213).png>)
-![alt text](<Screenshot (214).png>)
-![alt text](<Screenshot (215).png>)
+![alt text](Screenshot (210).png)
+![alt text](Screenshot (211).png)
+![alt text](Screenshot (212).png)
+![alt text](Screenshot (213).png)
+![alt text](Screenshot (214).png)
+![alt text](Screenshot (215).png)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
